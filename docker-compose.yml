@@ -1,7 +1,6 @@
 services:
   nextjs:
     image: node:22.3.0
-    working_dir: /src/app
     volumes:
       - ./:/app
       - /app/node_modules
