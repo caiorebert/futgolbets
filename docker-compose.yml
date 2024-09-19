@@ -3,7 +3,7 @@ services:
     image: node:22.3.0
     working_dir: /src/app
     volumes:
-      - ./src/app
+      - ./:/app
       - /app/node_modules
     ports:
       - '3000:3000'
