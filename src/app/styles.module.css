@@ -1,0 +1,19 @@
+#body {
+    margin: 0px !important;
+}
+
+.itemNavbar {
+    align-self: flex-end;
+    height: 50px;
+    text-align: center !important;
+    padding: 10px;
+    color: white;
+    /* border-top: 1px solid #008d3b; */
+    /* border-left: 1px solid #008d3b; */
+    /* border-right: 1px solid #008d3b; */
+
+}
+
+.active {
+    border-bottom: 5px solid #008d3b;
+}
